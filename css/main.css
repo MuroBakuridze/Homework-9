@@ -1,0 +1,41 @@
+.container{
+	max-width: 1640px;
+	width: 100%;
+	margin: 0 auto;
+/*	background-color: #34C0A6;*/
+	padding: 70px 0 70px 0;
+}
+.flex{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav-bar{
+	width: 850px;
+	display: flex;
+	justify-content: space-between;
+}
+.main-photo{
+	background-image: url(../images/main.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 620px;
+}
+.first-section{
+	margin-top: 140px;
+}
+.fs-title{
+	font-size: 40px;
+	margin-bottom: 70px;
+}
+.frst-art{
+	width: 25%;
+}
+.sec-art{
+	width: 25%;
+}
+.thrd-art{
+	width: 25%;
+}
