@@ -8,9 +8,16 @@
 }
 .flex{
 	display: flex;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
+}
+.flex2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+
 }
 .nav-el{
 	color: #707070;
@@ -20,6 +27,7 @@
 .nav-bar{
 	width: 850px;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 }
 .main-photo{
@@ -79,6 +87,9 @@
 	color: #707070;
 }
 .footer-content{
+	max-width: 1920px;
+	width: 100%;
+	margin: 0 auto;
 	background-color: #2E2E2E;
 	justify-content: space-around;
 	padding: 50px;
