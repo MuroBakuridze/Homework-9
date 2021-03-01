@@ -1,3 +1,4 @@
+
 .container{
 	max-width: 1640px;
 	width: 100%;
@@ -10,6 +11,11 @@
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	align-items: center;
+}
+.nav-el{
+	color: #707070;
+	font-size: 20px;
+	font-weight: bold;
 }
 .nav-bar{
 	width: 850px;
@@ -32,10 +38,76 @@
 }
 .frst-art{
 	width: 25%;
+	border-style: solid;
+	border-bottom-width: 0.1px;
+	border-color: #707070;
 }
 .sec-art{
 	width: 25%;
+	border-style: solid;
+	border-bottom-width: 0.1px;
+	border-color: #707070;
 }
 .thrd-art{
 	width: 25%;
+	border-style: solid;
+	border-bottom-width: 0.1px;
+	border-color: #707070;
+}
+.art-title{
+	font-size: 30px;
+	color: #707070;
+	margin: 20px 0 30px 10px;
+}
+.art-text{
+	font-size: 18px;
+	color: #707070;
+	margin-left: 10px;
+}
+.more{
+	font-size: 24px;
+	color: #707070;
+	margin: 70px 15px 40px 400px;
+}
+.lead-more{
+	margin-left: 45%;
+	border-bottom-width: 4px;
+	border-bottom-color: #707070;
+}
+.lead-atag{
+	font-size: 30px;
+	color: #707070;
+}
+.footer-content{
+	background-color: #2E2E2E;
+	justify-content: space-around;
+	padding: 50px;
+}
+.ft-contact{
+	color: white;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.ft-tel{
+	color: white;
+	font-size: 14px;
+}
+.ft-mail{
+	color: white;
+	font-size: 14px;
+}
+.ft-address{
+	color: white;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.address-txt{
+	color: white;
+	font-size: 14px;
+}
+.fb-logo{
+	margin-right: 30px;
+}
+.mr{
+	color: #707070;
 }
