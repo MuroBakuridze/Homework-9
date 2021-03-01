@@ -181,7 +181,18 @@
 		flex-wrap: wrap;
 		flex-direction: column;
 	}
-
+	.first-section{
+		display: flex;
+		margin: 0 auto;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	.second-section{
+		display: flex;
+		margin: 0 auto;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
 	.frst-art{
 		width: 100%;
 	}
